@@ -1,0 +1,39 @@
+#map svg path.counties {
+    fill: #2D4D50;
+    stroke: #C6D8DA;
+    stroke-opacity:0.5;
+}
+
+#map svg path.states{
+    stroke: #C6D8DA;
+    stroke-width: 6;
+    stroke-opacity: 0.2;
+    stroke-linejoin: round;
+}
+
+#map svg path.roads, #map svg path.rail{
+    stroke-width: 2px;
+    stroke: #5e5;
+}
+
+#map svg path.urban_area {
+	fill: #fff;
+	fill-opacity: 0.3;
+	stroke-width:0.5px;
+	stroke-opacity:0.8;
+	stroke: #fff;
+}
+
+#map svg path.t60, #map svg path.t120,#map svg path.t180{
+	stroke: red;
+	stroke-width:2;
+	fill: red;
+	fill-opacity: 0.1;
+}
+
+#map svg path.rivers{
+	stroke: darkblue;
+	stroke-width:2px;
+	
+	
+}

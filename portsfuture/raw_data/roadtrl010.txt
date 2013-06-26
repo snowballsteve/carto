@@ -1,0 +1,852 @@
+Metadata:
+  Identification_Information: 
+    Citation: 
+      Citation_Information: 
+        Originator: National Atlas of the United States 
+        Publication_Date: 201207
+        Title: 1:1,000,000-Scale Major Roads of the United States 
+        Publication_Information: 
+          Publication_Place: Rolla, MO 
+          Publisher: National Atlas of the United States 
+        Online_Linkage: <http://nationalatlas.gov/atlasftp-1m.html>
+    Description: 
+      Abstract: 
+        This map layer portrays the major roads in the United States, Puerto 
+        Rico, and the U.S. Virgin Islands.  The file was produced by joining the 
+        individual State roads layers from the National Highway Planning Network 
+        (NHPN), Geographic Data Technology (GDT) Dynamap, and TIGER/Line files.
+
+      Purpose: 
+        These data are intended for geographic display and analysis at the 
+        national level, and for large regional areas.  The data should be 
+        displayed and analyzed at scales appropriate for 1:1,000,000-scale data.  
+        No responsibility is assumed by the National Atlas of the United States 
+        in the use of these data. 
+    Time_Period_of_Content: 
+      Time_Period_Information: 
+        Single_Date/Time:
+          Calendar_Date: 201207
+      Currentness_Reference: Publication date
+    Status: 
+      Progress: Complete 
+      Maintenance_and_Update_Frequency: Irregular 
+    Spatial_Domain: 
+      Bounding_Coordinates: 
+        West_Bounding_Coordinate: -176
+        East_Bounding_Coordinate:  -64
+        North_Bounding_Coordinate:  71
+        South_Bounding_Coordinate:  17
+    Keywords: 
+      Theme:
+        Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+        Theme_Keyword: Transportation
+
+      Theme: 
+        Theme_Keyword_Thesaurus: None 
+        Theme_Keyword: Roads 
+        Theme_Keyword: Highways 
+        Theme_Keyword: Interstate highways
+        Theme_Keyword: US Route
+        Theme_Keyword: State Route
+      Place:
+        Place_Keyword_Thesaurus:
+          U.S. Department of Commerce; 1995; Countries, Dependencies, Areas of
+          Special Sovereignty, and Their Principal Administrative Divisions;
+          Federal Information Processing Standard (FIPS) 10-4; Washington, DC;
+          National Institute of Standards and Technology.
+        Place_Keyword: United States
+      Place: 
+        Place_Keyword_Thesaurus: None
+        Place_Keyword: US
+        Place_Keyword: USA
+      Place: 
+        Place_Keyword_Thesaurus: 
+          U.S. Department of Commerce; 1987; Codes for the Identification of the 
+          States, the District of Columbia and the Outlying Areas of The United 
+          States, and Associated Areas; FIPS 5-2; Washington, DC; National 
+          Institute of Standards and Technology. 
+        Place_Keyword: Alabama
+        Place_Keyword: Alaska
+        Place_Keyword: Arizona
+        Place_Keyword: Arkansas
+        Place_Keyword: California
+        Place_Keyword: Colorado
+        Place_Keyword: Connecticut
+        Place_Keyword: Delaware
+        Place_Keyword: District of Columbia
+        Place_Keyword: Florida
+        Place_Keyword: Georgia
+        Place_Keyword: Hawaii
+        Place_Keyword: Idaho
+        Place_Keyword: Illinois
+        Place_Keyword: Indiana
+        Place_Keyword: Iowa
+        Place_Keyword: Kansas
+        Place_Keyword: Kentucky
+        Place_Keyword: Louisiana
+        Place_Keyword: Maine
+        Place_Keyword: Massachusetts
+        Place_Keyword: Maryland
+        Place_Keyword: Michigan
+        Place_Keyword: Minnesota
+        Place_Keyword: Missouri
+        Place_Keyword: Mississippi
+        Place_Keyword: Montana
+        Place_Keyword: Nebraska
+        Place_Keyword: Nevada
+        Place_Keyword: New Hampshire
+        Place_Keyword: New Jersey
+        Place_Keyword: New Mexico
+        Place_Keyword: New York
+        Place_Keyword: North Carolina
+        Place_Keyword: North Dakota
+        Place_Keyword: Ohio
+        Place_Keyword: Oklahoma
+        Place_Keyword: Oregon
+        Place_Keyword: Pennsylvania
+        Place_Keyword: Rhode Island
+        Place_Keyword: South Carolina
+        Place_Keyword: South Dakota
+        Place_Keyword: Tennessee
+        Place_Keyword: Texas
+        Place_Keyword: Utah
+        Place_Keyword: Vermont
+        Place_Keyword: Virginia
+        Place_Keyword: Washington
+        Place_Keyword: West Virginia
+        Place_Keyword: Wisconsin
+        Place_Keyword: Wyoming
+        Place_Keyword: Puerto Rico
+        Place_Keyword: Virgin Islands
+        Place_Keyword: U.S. Virgin Islands
+    Access_Constraints: None 
+    Use_Constraints: 
+      None.  Acknowledgment of The National Atlas of the United States of 
+      America would be appreciated in products derived from these data. 
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: National Atlas of the United States
+        Contact_Address:
+          Address_Type: Mailing and physical address
+          Address: U.S. Geological Survey
+          Address: 511 National Center
+          Address: 12201 Sunrise Valley Drive 
+          City: Reston
+          State_or_Province: VA
+          Postal_Code: 20192
+        Contact_Voice_Telephone: 1-888-ASK-USGS (1-888-275-8747)
+        Contact_Electronic_Mail_Address: atlasmail@usgs.gov
+        Contact_Instructions:
+          For questions about this map layer or metadata, please contact the 
+          National Atlas using the information above, or through the U.S. 
+          Geological Survey contact page at <http://www.usgs.gov/ask/>.  For 
+          distribution questions, please see the Distribution Information 
+          elsewhere in this metadata. 
+  Data_Quality_Information: 
+    Logical_Consistency_Report: 
+      The map layer was checked for topological consistency using ArcGIS.  No 
+      other checks for logical consistency were performed on this map layer.
+    Completeness_Report: 
+      This map layer includes roads for all 50 States, Puerto Rico, and the U.S. 
+      Virgin Islands.  
+    Lineage: 
+      Source_Information: 
+        Source_Citation: 
+          Citation_Information: 
+            Originator: U.S. Department of Transportation
+            Publication_Date: 2007 
+            Title: National Highway Planning Network (NHPN) v2005.08 (Line)
+            Publication_Information: 
+              Publication_Place: Washington, DC
+              Publisher: Federal Highway Administration (FHWA)
+        Source_Scale_Denominator: 100000
+        Type_of_Source_Media: CD-ROM 
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Range_of_Dates/Times: 
+              Beginning_Date: 1978 
+              Ending_Date: 2005 
+          Source_Currentness_Reference: Ground condition 
+        Source_Citation_Abbreviation: NHPN 
+        Source_Contribution: Spatial and attribute information 
+
+      Source_Information: 
+        Source_Citation: 
+          Citation_Information: 
+            Originator: Geographic Data Technology, Inc.
+            Publication_Date: 2000
+            Title: GDT Dynamap/1000 v 6.8
+            Publication_Information: 
+              Publication_Place: Lebanon, NH
+              Publisher: Geographic Data Technology, Inc.
+        Source_Scale_Denominator: 100000
+        Type_of_Source_Media: CD-ROM 
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 1999
+          Source_Currentness_Reference: Ground condition
+        Source_Citation_Abbreviation: GDT
+        Source_Contribution: Spatial and attribute information 
+
+      Source_Information: 
+        Source_Citation: 
+          Citation_Information: 
+            Originator: 
+              Department of Commerce, Census Bureau, Geography Division
+            Publication_Date: 2006
+            Title: 2006 Second Edition TIGER/Line Files - Roads 
+            Publication_Information: 
+              Publication_Place: Washington, DC
+              Publisher: 
+                Department of Commerce, Census Bureau, Geography Division
+            Online_Linkage: 
+              <http://www.census.gov/geo/www/tiger/tiger2006se/tgr2006se.html>
+        Type_of_Source_Media: Online 
+        Source_Time_Period_of_Content: 
+          Time_Period_Information: 
+            Single_Date/Time: 
+              Calendar_Date: 2006
+          Source_Currentness_Reference: Ground condition
+        Source_Citation_Abbreviation: TIGER_06
+        Source_Contribution: Spatial and attribute information  
+
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: National Atlas of the United States
+            Publication_Date: Unknown
+            Title: 
+              1:1,000,000-Scale National Atlas map layers and other quality 
+              control files
+            Other_Citation_Details:
+              Numerous sources were used to perform quality-control and vertical 
+              integration, including all the 1:1,000,000-scale National Atlas 
+              map layers, a variety of online sources, and online USGS 
+              topographic maps.  More information is available from the National 
+              Atlas contacts listed elsewhere in this metadata.
+        Type_of_Source_Media: Variable
+        Source_Time_Period_of_Content: 
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: Unknown
+          Source_Currentness_Reference: Variable
+        Source_Citation_Abbreviation: QC
+        Source_Contribution: Spatial information
+      Process_Step: 
+        Process_Description:
+          Roads consisting of Interstates, U.S. routes, and State routes were 
+          collected from NHPN and GDT Dynamap.  For sparse areas, some roads 
+          deemed major were collected from NHPN.  Roads for Puerto Rico and the 
+          U.S. Virgin Islands were collected from 2006 2nd Edition TIGER/Line 
+          files.
+        Source_Used_Citation_Abbreviation: NHPN
+        Source_Used_Citation_Abbreviation: GDT
+        Source_Used_Citation_Abbreviation: TIGER_06
+        Process_Date: 2008 
+
+      Process_Step:
+        Process_Description:
+          The data were converted to an Albers Equal Area projection.  Attribute 
+          fields for miles and kilometers were added, and the values were 
+          calculated using ArcGIS.  The data were then converted back to 
+          geographic coordinates.  
+
+          Adjustments were made to the roads attribution to clarify descriptive 
+          information and to correct errors.
+        Process_Date: 2012
+
+      Process_Step:
+        Process_Description:
+          All the 1:1,000,000-scale map layers were checked for vertical 
+          integration.  Line positions were adjusted as necessary to remove 
+          overlaps.  Wherever possible, linear features were separated by 300 
+          meters, but were kept within 500 meters of their true location.
+        Source_Used_Citation_Abbreviation: QC
+        Process_Date: 2012
+
+  Spatial_Data_Organization_Information: 
+    Indirect_Spatial_Reference: 
+      U.S. Department of Commerce; 1987; Codes for the Identification of the 
+      States, the District of Columbia and The Outlying Areas of the United 
+      States, and Associated Areas; FIPS 5-2; Washington, DC; National 
+      Institute of Standards and Technology. 
+    Direct_Spatial_Reference_Method: Vector 
+    Point_and_Vector_Object_Information: 
+      SDTS_Terms_Description: 
+        SDTS_Point_and_Vector_Object_Type: String
+        Point_and_Vector_Object_Count: 225962
+
+  Spatial_Reference_Information: 
+    Horizontal_Coordinate_System_Definition: 
+      Geographic: 
+        Latitude_Resolution: 0.000278 
+        Longitude_Resolution: 0.000278 
+        Geographic_Coordinate_Units: Decimal degrees 
+      Geodetic_Model: 
+        Horizontal_Datum_Name: North American Datum of 1983 
+        Ellipsoid_Name: GRS1980 
+        Semi-major_Axis: 6378137 
+        Denominator_of_Flattening_Ratio: 298.257222 
+
+  Entity_and_Attribute_Information: 
+    Detailed_Description: 
+      Entity_Type: 
+        Entity_Type_Label: Road 
+        Entity_Type_Definition: An open way for the passage of vehicles. 
+        Entity_Type_Definition_Source: National Atlas of the United States
+      Attribute: 
+        Attribute_Label: Shape 
+        Attribute_Definition: The representation of the entity in the data.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: Polyline 
+            Enumerated_Domain_Value_Definition: 
+              A 1-dimensional element that may or may not surround a 2-
+              dimensional element.
+            Enumerated_Domain_Value_Definition_Source: ESRI GIS software 
+      Attribute: 
+        Attribute_Label: Prime_name
+        Attribute_Definition: 
+          The primary road name, including prefixes, suffixes, and the route 
+          type, if applicable.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values: 
+          Unrepresentable_Domain: 
+            There is no predefined set of valid primary road names.
+      Attribute: 
+        Attribute_Label: Secondary_
+        Attribute_Definition: The secondary road name.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: <blank> 
+            Enumerated_Domain_Value_Definition: 
+              There is no secondary name for the road.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Unrepresentable_Domain: 
+            There is no predefined set of valid secondary road names.
+      Attribute: 
+        Attribute_Label: Prefix_dir
+        Attribute_Definition: 
+          The directional prefix associated with the primary road name.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: <blank> 
+            Enumerated_Domain_Value_Definition: 
+              There is no directional prefix for the primary road name.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: E 
+            Enumerated_Domain_Value_Definition: East
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: N 
+            Enumerated_Domain_Value_Definition: North
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: S
+            Enumerated_Domain_Value_Definition: South
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: SE
+            Enumerated_Domain_Value_Definition: Southeast
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: SW
+            Enumerated_Domain_Value_Definition: Southwest
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: W
+            Enumerated_Domain_Value_Definition: West
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+      Attribute: 
+        Attribute_Label: Pre_type
+        Attribute_Definition: 
+          The route type associated with the primary road name.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: <blank> 
+            Enumerated_Domain_Value_Definition: 
+              There is no route type associated with the primary road name.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: County Highway 
+            Enumerated_Domain_Value_Definition: The road is a county highway.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: CR
+            Enumerated_Domain_Value_Definition: The road is a county route.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: FM
+            Enumerated_Domain_Value_Definition: 
+              The road is a farm-to-market route.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: Indian Route
+            Enumerated_Domain_Value_Definition: 
+              The road is on an Indian reservation.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: Interstate
+            Enumerated_Domain_Value_Definition: 
+              The road is part of the Eisenhower Interstate Highway System.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: Natl Forest Dev Road
+            Enumerated_Domain_Value_Definition: 
+              The road is a development road in a National Forest
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: NF
+            Enumerated_Domain_Value_Definition: 
+              The road is a National Forest route.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: RR
+            Enumerated_Domain_Value_Definition: The road is a ranch road.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: State Route
+            Enumerated_Domain_Value_Definition: The road is a State route.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: US Route
+            Enumerated_Domain_Value_Definition: The road is a U.S. Route.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+      Attribute: 
+        Attribute_Label: Name
+        Attribute_Definition: 
+          The name part of the primary road name.  This is the name without the 
+          associated prefix, suffix, and (or) route type.  The name may be a 
+          route number.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values: 
+          Unrepresentable_Domain: 
+            There is no predefined set of valid road names.
+      Attribute: 
+        Attribute_Label: Street_typ
+        Attribute_Definition: 
+          The street type associated with the primary road name.  The street 
+          type is for naming purposes only and does not necessarily indicate a 
+          particular type of route.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: <blank> 
+            Enumerated_Domain_Value_Definition: 
+              There is no street type associated with the primary road name.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Unrepresentable_Domain: 
+            There is no predefined set of valid street types.
+      Attribute: 
+        Attribute_Label: Suffix_dir
+        Attribute_Definition: 
+          The directional suffix associated with the primary road name.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: <blank> 
+            Enumerated_Domain_Value_Definition: 
+              There is no directional suffix for the primary road name.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: E 
+            Enumerated_Domain_Value_Definition: East
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: N 
+            Enumerated_Domain_Value_Definition: North
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: NE
+            Enumerated_Domain_Value_Definition: Northeast
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: NW
+            Enumerated_Domain_Value_Definition: Northwest
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: S
+            Enumerated_Domain_Value_Definition: South
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: SE
+            Enumerated_Domain_Value_Definition: Southeast
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: SW
+            Enumerated_Domain_Value_Definition: Southwest
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: W
+            Enumerated_Domain_Value_Definition: West
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+      Attribute: 
+        Attribute_Label: Interstate 
+        Attribute_Definition: The sign number for the Interstate route.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: <blank> 
+            Enumerated_Domain_Value_Definition: The route is not an Interstate.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Range_Domain: 
+            Range_Domain_Minimum: 10
+            Range_Domain_Maximum: H201
+      Attribute: 
+        Attribute_Label: US_Route 
+        Attribute_Definition: 
+          The sign number for the U.S. Route.  Where two or more numbered routes 
+          share the same path, all applicable sign numbers are listed, separated 
+          by spaces.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: <blank> 
+            Enumerated_Domain_Value_Definition: The route is not a U.S. route.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Range_Domain: 
+            Range_Domain_Minimum: 1 
+            Range_Domain_Maximum: 730
+      Attribute: 
+        Attribute_Label: St_route 
+        Attribute_Definition: 
+          The sign number for the State Route.  State route numbers may include 
+          letters.  Where two or more routes share the same path, all applicable 
+          sign numbers are listed, separated by spaces.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: <blank> 
+            Enumerated_Domain_Value_Definition: The route is not a State route.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Unrepresentable_Domain: 
+            There is no predefined set of valid State route numbers.
+      Attribute: 
+        Attribute_Label: Qualifier 
+        Attribute_Definition: An qualifier for the road type.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: <blank> 
+            Enumerated_Domain_Value_Definition: 
+              The route is a main route and does not have a road qualifier.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: ALT
+            Enumerated_Domain_Value_Definition: 
+              Alternate route; a route that is part of the Eisenhower Interstate 
+              Highway System or other highway system, and that generally 
+              parallels a main route to provide additional traffic capacity.  
+            Enumerated_Domain_Value_Definition_Source:
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: BUS
+            Enumerated_Domain_Value_Definition: 
+              Business route; a route that is part of the Eisenhower Interstate 
+              Highway System or other highway system, and that passes through 
+              the central business district of a city or town.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: BYP 
+            Enumerated_Domain_Value_Definition: 
+              Bypass; a route that is part of the Eisenhower Interstate Highway 
+              System or other highway system, and that diverts traffic around a 
+              city or town. 
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: LOOP 
+            Enumerated_Domain_Value_Definition: 
+              Loop; a route that is part of the Eisenhower Interstate Highway 
+              System or other highway system, and that encircles a city.
+            Enumerated_Domain_Value_Definition_Source:
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: SCN
+            Enumerated_Domain_Value_Definition: 
+              Scenic route; a route that is part of the Eisenhower Interstate 
+              Highway System or other highway system, and that is designated 
+              as being especially attractive or of historical significance.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: SPUR
+            Enumerated_Domain_Value_Definition: 
+              Spur; a route that is part of the Eisenhower Interstate Highway 
+              System or other highway system, and that is an offshoot of the 
+              main alignment of a highway. 
+            Enumerated_Domain_Value_Definition_Source:
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: TOLL
+            Enumerated_Domain_Value_Definition: 
+              Toll road: a route that is part of the Eisenhower Interstate 
+              Highway System or other highway system, and where a travel fee is 
+              collected. 
+            Enumerated_Domain_Value_Definition_Source:
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: TRK
+            Enumerated_Domain_Value_Definition: 
+              Truck route; a route that is part of the Eisenhower Interstate 
+              Highway System or other highway system, that is designated for 
+              truck traffic. 
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: TUN
+            Enumerated_Domain_Value_Definition: 
+              Tunnel; a route that is part of the Eisenhower Interstate Highway 
+              System or other highway system, and that goes through a tunnel. 
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+      Attribute: 
+        Attribute_Label: Trans_type 
+        Attribute_Definition: The general road type. 
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: EXPY
+            Enumerated_Domain_Value_Definition: The road is an expressway.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: FRRY
+            Enumerated_Domain_Value_Definition: 
+              The route is carried across a water body on a ferry.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: FRWY
+            Enumerated_Domain_Value_Definition: The road is a freeway.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: HWY
+            Enumerated_Domain_Value_Definition: The road is a highway.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: ROAD
+            Enumerated_Domain_Value_Definition: 
+              The road is a route other than an expressway, ferry, freeway, or 
+              highway.
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+      Attribute: 
+        Attribute_Label: Fcode 
+        Attribute_Definition: The 2-digit feature code.  
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values: 
+          Enumerated_Domain: 
+            Enumerated_Domain_Value: (see table below) 
+            Enumerated_Domain_Value_Definition:
+              The feature code is two digits, where the first digit indicates 
+              the road classification and the second digit indicates the route 
+              type.
+              >
+              >First digit value              Description
+              >-----------------------------------------------------------------
+              >   0                           Unknown
+              >   1                           Interstate
+              >   2                           U.S. Route
+              >   3                           State Route
+              >                          
+              >Second digit value             Description
+              >-----------------------------------------------------------------
+              >   0                           Unknown
+              >   1                           Alternate
+              >   2                           Business
+              >   3                           Bypass
+              >   4                           Loop
+              >   5                           Scenic
+              >   6                           Spur
+              >   7                           Toll
+              >   8                           Truck
+              >   9                           Tunnel
+              >
+            Enumerated_Domain_Value_Definition_Source: 
+              National Atlas of the United States
+      Attribute: 
+        Attribute_Label: Stfips 
+        Attribute_Definition: 
+          The 2-digit Federal Information Processing Standard (FIPS) code for 
+          the State or State equivalent in which the road is located. 
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values: 
+          Codeset_Domain: 
+            Codeset_Name: 
+              Codes for the Identification of the States, the District of 
+              Columbia and the Outlying Areas of the United States, and 
+              Associated Areas; FIPS 5-2. 
+            Codeset_Source: U.S. Department of Commerce 
+      Attribute: 
+        Attribute_Label: State 
+        Attribute_Definition: 
+          The 2-letter FIPS code for the State or State equivalent in which the 
+          road is located. 
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values: 
+          Codeset_Domain: 
+            Codeset_Name: 
+              Codes for the Identification of the States, the District of 
+              Columbia and the Outlying Areas of the United States, and 
+              Associated Areas; FIPS 5-2. 
+            Codeset_Source: U.S. Department of Commerce 
+      Attribute:	
+        Attribute_Label: Miles
+        Attribute_Definition: The length of the road in miles.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0.0000836
+            Range_Domain_Maximum: 260.00000
+      Attribute:
+        Attribute_Label: Kilometers
+        Attribute_Definition: The length of the road in kilometers.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0.0001345
+            Range_Domain_Maximum: 420.00000
+
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: Earth Explorer, U.S. Geological Survey
+        Contact_Address:
+          Address_Type: Mailing address
+          Address: U.S. Geological Survey
+          Address: 47914 252nd Street
+          City: Sioux Falls
+          State_or_Province: SD
+          Postal_Code: 57198-0001
+        Contact_Voice_Telephone: 605-594-6116
+        Contact_Voice_Telephone: 866-573-3222
+        Contact_Electronic_Mail_Address: lpdaac@usgs.gov
+    Distribution_Liability:
+      Although these data have been processed successfully on a computer system 
+      at the U.S. Geological Survey, no warranty expressed or implied is made by 
+      the U.S. Geological Survey regarding the utility of the data on any other
+      system, nor shall the act of distribution constitute any such warranty.  
+      No responsibility is assumed by the U.S. Geological Survey in the use of 
+      these data.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ESRI Shapefile
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: 
+                  <http://nationalatlas.gov/atlasftp-1m.html>
+      Fees: None
+
+  Metadata_Reference_Information: 
+    Metadata_Date: 20120720
+    Metadata_Contact: 
+      Contact_Information: 
+        Contact_Organization_Primary: 
+          Contact_Organization: National Atlas of the United States
+        Contact_Address:
+          Address_Type: Mailing address
+          Address: U.S. Geological Survey
+          Address: 511 National Center
+          Address: 12201 Sunrise Valley Drive 
+          City: Reston
+          State_or_Province: VA
+          Postal_Code: 20192
+        Contact_Voice_Telephone: 1-888-ASK-USGS (1-888-275-8747)
+        Contact_Electronic_Mail_Address: atlasmail@usgs.gov
+    Metadata_Standard_Name: 
+      FGDC Content Standards for Digital Geospatial Metadata 
+    Metadata_Standard_Version: FGDC-STD-001-1998 
+    Metadata_Security_Information: 
+      Metadata_Security_Classification_System: None 
+      Metadata_Security_Classification: Unclassified 
+      Metadata_Security_Handling_Description: None 

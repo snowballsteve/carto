@@ -1,0 +1,107 @@
+{
+    "bounds": {
+        "mode": "bbox",
+        "data": [
+            -87,
+            36,
+            -79,
+            42
+        ]
+    },
+    "proj": {
+        "id": "satellite",
+        "lon0": -83,
+        "lat0": 39,
+        "dist": 1.5,
+        "up": 0,
+        "tilt": 0
+    },
+    "export": {
+        "width": 900,
+        "height": 900
+    },
+    "layers": {
+        "states": {
+            "src": "data/states.shp",
+            "simplify": 2,
+            "attributes": {
+                "id": "STFIPS",
+                "name": "STATE"
+            }
+        },
+        "counties": {
+            "src": "data/counties.shp",
+            "simplify": 2,
+            "attributes": {
+                "id": "FIPS",
+                "name": "COUNTY"
+            }
+        },
+        "urban_area": {
+            "src": "data/urban_area.shp",
+            "simplify": 2,
+            "attributes": {
+                "id": "URBANP020",
+                "name": "NAME"
+            }
+        },
+        "roads": {
+            "src": "data/roads.shp",
+            "attributes": {
+                "id": "gid",
+                "name": "name"
+            }
+        },
+        "rail": {
+            "src": "data/rail.shp",
+            "attributes": {
+                "name": "RROWNER1",
+                "id": "gid"
+            }
+        },
+        "rivers": {
+            "src": "data/rivers.shp",
+            "attributes": {
+                "id": "gid",
+                "name": "name"
+            }
+        },
+		"ports":{
+			"src":"data/ports.shp",
+			"attributes":{
+				"id":"id",
+				"name":"Name"
+			}
+		},
+        "t60": {
+            "src": "data/drivetime.shp",
+            "simplify":5,
+			"filter": {
+                "id": 60
+            },
+            "attributes": {
+                "id": "id"
+            }
+        },
+        "t120": {
+            "src": "data/drivetime.shp",
+			"simplify":5,
+            "filter": {
+                "id": 120
+            },
+            "attributes": {
+                "id": "id"
+    		}
+		},
+        "t180": {
+            "src": "data/drivetime.shp",
+			"simplify":5,
+            "filter": {
+                "id": 180
+            },
+            "attributes": {
+                "id": "id"
+            }
+        }
+    }
+}

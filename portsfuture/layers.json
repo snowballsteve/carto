@@ -1,0 +1,71 @@
+{
+    "bounds":{
+	"mode":"bbox",
+	"data":[-85,38,-80,42]
+    },
+    "proj":{
+	"id":"satellite",
+	"lon0":-83,
+	"lat0":39,
+	"dist":1.005,
+	"up":0,
+	"tilt":0
+    },
+    "export": {
+	"width": 900,
+	"height": 900
+    },
+    "layers":{
+		"grid_small": {
+			"special": "graticule",
+			"latitudes": 0.5,
+			"longitudes": 0.5
+		},
+		"states":{
+			"src":"data/states.shp",
+			"simplify":3,
+			"filter":{"STPOSTAL":["OH","WV","PA","NY","MI","KY","IN","VA"]}
+		},
+		"counties":{
+			"src":"data/counties.shp",
+			"simplify":3
+		},
+		"region":{
+			"src":"data/counties.shp",
+			"filter":{"COUNTY_NAM":["ROSS","JACKSON","PIKE","SCIOTO"]},
+			"simplify":3
+		 },
+		"urban_area":{
+			"src":"data/urban_areas.shp",
+			"filter":["AREA",">",0.007],
+			"simplify":2,
+			"attributes": {
+				"name": "NAME",
+				"id":"URBANAP020"
+			}
+		},
+		"airports":{
+			"src":"data/airports2.shp",
+			"filter":{"CNTL_TWR":"Y", "CUST_LNDG":"Y"},
+			"attributes": {
+				"name": "FULLNAME",
+                "id": "LOCID"
+			}
+		},
+		"rivers":{
+			"src":"data/rivers.shp",
+			"simplify":10,
+			"attributes": {
+				"name": "Name"
+			}
+		},
+		"roads":{
+			"src":"data/roads.shp",
+			"simplify":5, 
+			"attributes": {
+				"name": "PRIMENAME"
+			}
+			
+		}
+    }
+}
