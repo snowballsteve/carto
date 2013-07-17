@@ -2,10 +2,10 @@
     "bounds": {
         "mode": "bbox",
         "data": [
-            -87,
-            37,
-            -79,
-            42
+            -88,
+            36,
+            -78,
+            43
         ]
     },
     "proj": {
@@ -66,52 +66,62 @@
                 "id": "TLID"
             }
         },
-        "rivers": {
-            "src": "data/rivers.shp",
+        "waterways": {
+            "src": "data/usarmycore_waterways.shp",
             "attributes": {
-                "id": "gid",
-                "name": "name"
+                "id": "ID",
+                "name": "LINKNAME"
             }
         },
 		"airports":{
-			"src":"data/airports.shp",
+			"src":"data/airports_public.shp",
 			"attributes":{
 				"id":"LOCID",
 				"name":"FULLNAME"
 			}
 		},
 		"ports":{
-			"src":"data/ports.shp",
+			"src":"data/usarmycore_ports.shp",
 			"attributes":{
-				"id":"id",
-				"name":"NAME"
+				"id":"ID",
+				"name":"desc"
 			}
 		},
-        "t60": {
+        "t2": {
             "src": "data/drivetime.shp",
             "simplify":5,
 			"filter": {
-                "id": 60
+                "id": 120
             },
             "attributes": {
                 "id": "id"
             }
         },
-        "t120": {
+        "t4": {
             "src": "data/drivetime.shp",
 		"simplify":5,
             "filter": {
-                "id": 120
+                "id": 240
             },
             "attributes": {
                 "id": "id"
     		}
 		},
-        "t180": {
+        "t6": {
             "src": "data/drivetime.shp",
 			"simplify":5,
             "filter": {
-                "id": 180
+                "id": 360
+            },
+            "attributes": {
+                "id": "id"
+            }
+        },
+        "t8": {
+            "src": "data/drivetime.shp",
+			"simplify":5,
+            "filter": {
+                "id": 480
             },
             "attributes": {
                 "id": "id"

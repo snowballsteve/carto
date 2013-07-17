@@ -29,7 +29,7 @@
 	
 }
 
-#map svg path.t60, #map svg path.t120,#map svg path.t180{
+#map svg path.t2,#map svg path.t4,#map svg path.t6,#map svg path.t8,#map svg path.t10 {
 	stroke: #FFFEDF;
 	stroke-width:2;
 	fill: #FFFEDF;
@@ -38,7 +38,7 @@
 	
 }
 
-#map svg path.rivers{
+#map svg path.waterways{
 	stroke: #07F9A2;
 	stroke-width:1.5px;
 	-webkit-svg-shadow: 0 0 5px #07F9A2;
