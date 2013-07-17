@@ -1,7 +1,7 @@
 var map;
 var active_layer = ""
-var active_drive_layer="t60"
-
+var active_drive_layer="t2"
+var panZoom
 $.fn.qtip.defaults.style.classes = 'qtip-dark qtip-rounded qtip-shadow'
 
 //the following json objects are used to configure the buttons, and layers used in the web app.
@@ -24,14 +24,17 @@ var base_layers = {
 }
 
 var drive_layers = {
-	"t60":{
-		"layertext":"1 Hour"
-	},
-	"t120":{
+	"t2":{
 		"layertext":"2 Hours"
 	},
-	"t180":{
-		"layertext":"3 Hours"
+	"t4":{
+		"layertext":"4 Hours"
+	},
+	"t6":{
+		"layertext":"6 Hours"
+	},
+	"t8":{
+		"layertext":"8 Hours"
 	}
 }
 
@@ -51,30 +54,32 @@ var optional_layers = {
 		"description":"Major rail arteries.",
 		"tooltips":true
 	},
-	"rivers":{
-		"layertext":"Rivers",
-		"description":"Large rivers, those with a stream order greater than 3. Not necessarily used for shipping.",
+	"waterways":{
+		"layertext":"Waterways",
+		"description":"US Army Core recognized navigable waterways and shipping lanes.",
 		"tooltips":true
 	},
 	"airports":{
 		"layertext":"Airports",
-		"description":"Airports with an operating control tower and U.S. Customs agents.",
+		"description":"Public-use airports of any size.",
 		"tooltips":true
 	},
 	"ports":{
-		"layertext":"Ports",
-		"description":"Water Accessible Port Authorities in the Region",
+		"layertext":"Wharfs",
+		"description":"US Army Core recorded docks and wharfs used for water navigation activities.",
 		"tooltips":true
 	}
 }
 
 var labels = [
-	{name:"Cleveland", lon: -81.12,lat:41.45},
-	{name:"Columbus", lon: -82.48,lat:39.89},
-	{name:"Cincinnati", lon: -85.2,lat:39.1},
-	{name:"Dayton", lon: -83.67,lat:39.77},
-	{name:"Louisville", lon: -86.29,lat:38.20},
-	{name:"Lexington", lon: -84.1,lat:38},
+	{name:"Cleveland", lon: -81,lat:41.45},
+	{name:"Columbus", lon: -82.38,lat:39.89},
+	{name:"Cincinnati", lon: -85.3,lat:39.1},
+	{name:"Dayton", lon: -83.57,lat:39.77},
+	{name:"Louisville", lon: -86.4,lat:38.20},
+	{name:"Lexington", lon: -84,lat:38},
+	{name:"Chicago",lon:-87,lat:41.8},
+	{name:"Detroit",lon:-82.8,lat:42}
 	
 	]
 
@@ -127,7 +132,7 @@ function loadMap(){
 		    map.addSymbols({
 				type: $K.Label,
 		        data: ports_location,
-				location: function(d) { return [d.lon-0.35, d.lat+0.05] },
+				location: function(d) { return [d.lon-0.45, d.lat+0.05] },
 				text: function(d) { return d.name; },
 				style: 'fill: #FFFEDF; stroke-width: 0.1px; stroke: #112;-webkit-svg-shadow: 0 0 5px #112;'
 		    });
@@ -151,6 +156,8 @@ function loadMap(){
 			$('#'+active_drive_layer).css('border','1px solid #94f7d1')
 		});
 	});
+	startPan();
+	
 }
 
 function switchLayer(layer){
@@ -245,3 +252,15 @@ function makeButtons(){
 	}
     $('#drive_buttons').html(drive_buttons)
 }
+
+function startPan(){
+	if(map.paper==null){
+		setTimeout(startPan, 50);
+		return;
+	}else{
+		panZoom = map.paper.panzoom({ initialZoom: 2, initialPosition: { x: 50, y: 0} });
+		panZoom.enable();
+	}
+	
+}
+
