@@ -13,11 +13,22 @@
 
 }
 
-#map svg path.roads, #map svg path.rail, #map svg path.hazmat{
+#map svg path.roads, #map svg path.rail{
     stroke-width: 1.5px;
     stroke: #07F9A2;
 	-webkit-svg-shadow: 0 0 10px #07F9A2;
 	
+}
+
+#map svg path.rail{
+	stroke-dasharray: 5,5;
+	
+}
+
+#map svg path.hazmat{
+	stroke-width:2px;
+	-webkit-svg-shadow: 0 0 10px #FA023C;
+	stroke: #FA023C;
 }
 
 #map svg path.urban_area {
@@ -39,14 +50,34 @@
 }
 
 #map svg path.waterways{
-	stroke: #07F9A2;
+	stroke: #000FFF;
 	stroke-width:1.5px;
 	-webkit-svg-shadow: 0 0 5px #07F9A2;
 }
+#map svg path.education{
+    stroke-width: 1.5px;
+    stroke: #FF6103;
+	fill: #112;
+	-webkit-svg-shadow: 0 0 15px #FF6103;
+}
 
-#map svg path.airports, #map svg path.ports{
+#map svg path.airports_all{
     stroke-width: 1.5px;
     stroke: #07F9A2;
-	fill:#112;
-	-webkit-svg-shadow: 0 0 10px #07F9A2;
+	fill: none;
+	-webkit-svg-shadow: 0 0 15px #07F9A2;
+}
+
+#map svg path.airports_major{
+    stroke-width: 1.5px;
+    stroke: yellow;
+	fill:yellow;
+	-webkit-svg-shadow: 0 0 10px yellow;
+}
+
+#map svg path.ports{
+    stroke-width: 1px;
+    stroke: #000FFF;
+	fill:#000FFF;
+	-webkit-svg-shadow: 0 0 1px #000FFF;
 }

@@ -1,5 +1,5 @@
 var map;
-var active_layer = ""
+var active_layers = []
 var active_drive_layer="t2"
 var panZoom
 $.fn.qtip.defaults.style.classes = 'qtip-dark qtip-rounded qtip-shadow'
@@ -9,7 +9,7 @@ var base_layers = {
 		"counties":{
 		"layertext": "County",
 		"labels":false,
-		"tooltips":true
+		"tooltips":false
 	},
 	"states":{
 		"layertext": "States",
@@ -32,9 +32,6 @@ var drive_layers = {
 	},
 	"t6":{
 		"layertext":"6 Hours"
-	},
-	"t8":{
-		"layertext":"8 Hours"
 	}
 }
 
@@ -42,31 +39,57 @@ var optional_layers = {
 	"roads":{	
 		"layertext": "Highways",
 		"description": "Major road corridors. Interstates and 4-lane divided highways in the region.",
+		"source_url":"http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_atlas_database/index.html",
+		"source_text":"The National Transportation Atlas Database",
 		"tooltips":true
 	},
 	"hazmat":{	
 		"layertext": "HazMat Routes",
 		"description": "Nationally Recognized Hazardous Material Routes.",
+		"source_url":"http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_atlas_database/index.html",
+		"source_text":"The National Transportation Atlas Database",
 		"tooltips":true
 	},
 	"rail":{
 		"layertext":"Rail",
 		"description":"Major rail arteries.",
+		"source_url":"http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_atlas_database/index.html",
+		"source_text":"The National Transportation Atlas Database",
 		"tooltips":true
 	},
 	"waterways":{
 		"layertext":"Waterways",
-		"description":"US Army Core recognized navigable waterways and shipping lanes.",
+		"description":"U.S. Army Corps of Engineers recognized navigable waterways and shipping lanes.",
+		"source_url":"http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_atlas_database/index.html",
+		"source_text":"The National Transportation Atlas Database",
 		"tooltips":true
 	},
-	"airports":{
-		"layertext":"Airports",
+	"airports_major":{
+		"layertext":"Major Airports",
+		"description":"Public-use airports with an operating control tower and U.S. Customs agent.",
+		"source_url":"http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_atlas_database/index.html",
+		"source_text":"The National Transportation Atlas Database",
+		"tooltips":true
+	},
+	"airports_all":{
+		"layertext":"All Airports",
 		"description":"Public-use airports of any size.",
+		"source_url":"http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_atlas_database/index.html",
+		"source_text":"The National Transportation Atlas Database",
 		"tooltips":true
 	},
 	"ports":{
 		"layertext":"Wharfs",
-		"description":"US Army Core recorded docks and wharfs used for water navigation activities.",
+		"description":"U.S. Army Corps of Engineers recorded docks and wharfs used for water navigation activities.",
+		"source_url":"http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_atlas_database/index.html",
+		"source_text":"The National Transportation Atlas Database",
+		"tooltips":true
+	},
+	"education":{
+		"layertext":"Education",
+		"description":"Accredited institutions as of 6/2013 according to the U.S. Department of Education.",
+		"source_url":"http://ope.ed.gov/accreditation",
+		"source_text":"U.S. Department of Education",
 		"tooltips":true
 	}
 }
@@ -88,6 +111,32 @@ default_description = "Green buttons toggle between layers. White buttons toggle
 
 //location of our point of interest
 ports_location = [{ name: 'PORTS', lon:  -83.0030822, lat: 39.0149157 }]
+
+if (!Array.prototype.indexOf) {
+  Array.prototype.indexOf = function (obj, fromIndex) {
+    if (fromIndex == null) {
+        fromIndex = 0;
+    } else if (fromIndex < 0) {
+        fromIndex = Math.max(0, this.length + fromIndex);
+    }
+    for (var i = fromIndex, j = this.length; i < j; i++) {
+        if (this[i] === obj)
+            return i;
+    }
+    return -1;
+  };
+}
+
+Array.prototype.remove = function() {
+    var what, a = arguments, L = a.length, ax;
+    while (L && this.length) {
+        what = a[--L];
+        while ((ax = this.indexOf(what)) !== -1) {
+            this.splice(ax, 1);
+        }
+    }
+    return this;
+};
 
 
 function loadMap(){
@@ -163,39 +212,57 @@ function loadMap(){
 function switchLayer(layer){
     
     //if there is already a layer active, remove it, change description to default, and clear symbols in case it is labelled
-    if(active_layer != ""){
+    /*if(active_layer != ""){
 		
         map.layers[active_layer].remove();
         $('#descriptions').html(default_description);
 		clearSymbols()
 
-    }
+    }*/
 	
 	//if the button hit is the one for the current layer
-    if(active_layer==layer){
-        active_layer="";
+    if(active_layers.indexOf(layer)>=0){
+        active_layers.remove(layer);
+        map.layers[layer].remove();
     }else{
 		//set new layer to active
-        active_layer = layer;
+        active_layers.push(layer);
 		
 		//add layer to map and fade in
-		map.addLayer(active_layer,{key:"id"})
-		map.fadeIn({layer:active_layer,duration:500})
+		map.addLayer(layer,{key:"id"})
+		map.fadeIn({layer:layer,duration:500})
 		
 		//change description
-		$('#descriptions').html(optional_layers[active_layer].description) 
+		$('#descriptions').html(optional_layers[layer].description) 
 		    
 		//add tooltips if desired	
-		if(optional_layers[active_layer].tooltips){
-			map.getLayer(active_layer).tooltips( function(d){return [optional_layers[active_layer].layertext, d.name] })
+		if(optional_layers[layer].tooltips){
+			map.getLayer(layer).tooltips( function(d){return [optional_layers[layer].layertext, d.name] })
     	}
 	}
 	
 	//change button highligting so that active is highlighted
 	$('.layerbutton').css('box-shadow','none')
 	$('.layerbutton').css('border','none')
-	$('#'+active_layer).css('box-shadow','0 0 15px #fff')
-	$('#'+active_layer).css('border','1px solid #fff')
+	for(var i=0;i<active_layers.length;i++){
+		$('#'+active_layers[i]).css('box-shadow','0 0 15px #fff')
+		$('#'+active_layers[i]).css('border','1px solid #fff')
+	}
+	if(active_layers.length==1){
+		$('#source').html("Data Source: <a href='"+optional_layers[layer].source_url+"' >"+optional_layers[layer].source_text+"</a>")
+	}else{
+		var html = "Data Sources:"
+		var used_sources = []
+		for(var i=0;i<active_layers.length;i++){
+			text = optional_layers[active_layers[i]].source_text
+			url = optional_layers[active_layers[i]].source_url
+			if(used_sources.indexOf(text)==-1){
+				html= html+ "<a href='"+url+"' >"+text+"</a>, "
+				used_sources.push(text)
+			}
+		}
+		$('#source').html(html)
+	}
 }
 
 

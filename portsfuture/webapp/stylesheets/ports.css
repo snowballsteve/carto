@@ -129,7 +129,7 @@ footer{
 	
 }
 
-footer a, footer a.visited{
+footer a, footer a:visited{
 	color: #ccc;
 	font-weight: bold;
 	text-decoration:none;
