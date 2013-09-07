@@ -1,0 +1,213 @@
+ContractNumber,Location,Date,BidEnd,Acres,CuttingSections,BoardFeet,PulpwoodTons,CordwoodTons,TotalTrees,AvgDBH,SaleType,Comments
+0537,Zaleski State Forest,3/30/2005,4/27/2005,133,3,"334,659",35,,1015,20,MarkedTrees,
+0538,Shawnee State Forest,4/6/2005,5/4/2005,92.8,4,"555,976",961,,,,Clearcuts - Ice Storm Damage,No Counts by Species
+0539,Tar Hollow State Forest,4/12/2005,5/10/2005,140,4,"307,980",,,964,20,Thinning,
+0540,Shawnee State Forest,4/13/2005,5/11/2005,82.6,4,"514,560",818,,,,Clearcuts - Ice Storm Damage,No Counts by Species
+0541,Zaleski State Forest,4/19/2005,5/17/2005,103,5,"292,802",129,,1512,18,MarkedTrees,
+0542,Shawnee State Forest,4/21/2005,5/19/2005,133,2,"314,545",,,1178,18,MarkedTrees,
+0543,Shawnee State Forest,4/28/2005,5/26/2005,91,3,"453,150",,408,1665,22,Shelterwood,
+0544,Tar Hollow State Forest,5/3/2005,5/31/2005,56,1,"128,780",,,382,22,Thinning,
+0546,Zaleski State Forest,5/5/2005,6/2/2005,42,2,"293,785",542,,2005,18,Clearcut,
+0551,Shawnee State Forest,5/12/2005,6/8/2005,34.5,2,"225,738",516,,1141,20,Clearcut,
+0552,Richland Furnace State Forest,5/19/2005,6/8/2005,168,5,"677,255",3360,,5036,16,Shelterwood,
+0553,Pike State Forest,5/25/2005,6/22/2005,87,2,"117,520",,,394,22,Thinning,
+0556,Dean State Forest,6/15/2005,7/13/2005,104,4,"818,775",1970,,3838,18,Clearcuts - Ice Storm Damage,
+0602,Pike State Forest,6/30/2005,7/28/2005,191,3,"475,599",780,,2099,18,Thinning,Sale type based on largest acreage in cutting section
+0605,Zaleski State Forest,6/2/2005,6/30/2005,199,5,"520,409",1766,,2240,18,MarkedTrees,Sale type based on largest acreage in cutting section
+0606,Scioto Trail State Forest,10/3/2005,11/1/2005,318,4,"842,566",472,,3303,20,Thinning,Sale type based on largest acreage in cutting section
+0612,Shawnee State Forest,10/11/2005,11/9/2005,42,2,"91,310",,,312,22,MarkedTrees,
+0613,Zaleski State Forest,10/20/2005,11/18/2005,49,3,"227,820",304,,1013,16,MarkedTrees,Sale type based on largest acreage in cutting section
+0616,Brush Creek State Forest,12/6/2005,1/11/2006,29,1,"299,512",555,,1352,18,Clearcut,
+0617,Hocking State Forest,12/15/2005,1/18/2006,23,1,"183,656",322,,1451,16,Clearcut,
+0619,Maumee State Forest,1/6/2005,1/25/2006,50,2,,5019,,,,Clearcut and Thinning,"Very vague on details, old pine plantation."
+0620,Zaleski State Forest,1/11/2006,2/8/2006,100,4,"43,229",1113,,3127,14,Shelterwood,
+0621,Brush Creek State Forest,1/17/2006,2/15/2006,45,1,"92,390",,,364,20,Thinning,
+0624,Shawnee State Forest,1/24/2006,2/22/2006,11.5,1,"70,736",202,,395,20,Clearcut,
+0625,Shawnee State Forest,1/31/2006,3/1/2006,37,2,"158,629",603,,1294,18,Clearcut,
+0626,Shade River State Forest,2/8/2006,3/8/2006,33,2,"7,394",2314,,5545,,Clearcut,
+0627,Hocking State Forest,2/15/2006,3/15/2006,35,3,"38,317",2819,,4857,12.2264772493309,Clearcut,Sale type based on largest acreage in cutting section
+0628,Blue Rock State Forest,2/22/2006,3/22/2006,28,8,,1834,,5166,10,Clearcut,Sale type based on largest acreage in cutting section
+0629,Shawnee State Forest,3/3/2006,3/29/2006,73,5,"378,965",738,,1441,18,Clearcut,Sale type based on largest acreage in cutting section
+0630,Zaleski State Forest,3/7/2006,4/5/2006,64,3,"293,980",216,,1435,17,Thinning,Sale type based on largest acreage in cutting section
+0631,Shawnee State Forest,3/15/2006,4/12/2006,47,2,"337,259",937,,1275,20,Clearcut,
+0632,Shawnee State Forest,3/23/2006,4/19/2006,41,2,"230,438",677,,861,20,Clearcut,
+0633,Zaleski State Forest,4/5/2006,5/3/2006,63,4,"266,280",214,,1064,18,Thinning,Sale type based on largest acreage in cutting section
+0634,Tar Hollow State Forest,4/20/2006,5/10/2006,7,1,,153,,,10,Thinning,No Counts by Species
+0634,Richland Furnace State Forest,4/20/2006,5/10/2006,27,3,,1407,,,8,Clearcut,No Counts by Species
+0635,Dean State Forest,4/24/2006,5/17/2006,42,4,"183,174",505,,1537,14,Clearcut,Sale type based on largest acreage in cutting section
+0636,Pike State Forest,4/26/2006,5/24/2006,158,2,"272,220",,,868,22,Thinning,
+0637,Hocking State Forest,5/8/2006,5/31/2006,39,5,"54,893",8264,,9058,10.2366968425701,Clearcut,Sale type based on largest acreage in cutting section
+0638,Tar Hollow State Forest,5/12/2006,6/7/2006,205,3,"352,620",,,1458,18,Thinning,
+0639,Tar Hollow State Forest,4/14/2006,4/25/2006,14,1,,827,,,,MarkedTrees,"Very vague - no counts on species
+"
+0645,Pike State Forest,5/17/2006,6/14/2006,214,2,"321,080",,,1175,20,Thinning,
+0646,Shawnee State Forest,6/6/2006,6/28/2006,73,2,"219,620",209,,866,20,MarkedTrees,Sale type based on largest acreage in cutting section
+0701,Zaleski State Forest,6/23/2006,7/19/2006,74,3,"240,440",57,,1122,18,Thinning,
+0702,Blue Rock State Forest,6/26/2006,7/26/2006,38,2,"85,390",8,,320,20,Thinning,
+0703,Shawnee State Forest,7/20/2006,8/16/2006,150,2,"281,020",,,989,22,MarkedTrees,
+0704,Hocking State Forest,7/28/2006,8/23/2006,133,3,"453,756",147,,1505,20,MarkedTrees,
+0705,Brush Creek State Forest,8/11/2006,9/6/2006,128,2,"470,580",504,,1618,20,MarkedTrees,
+0706,Tar Hollow State Forest,8/25/2006,9/20/2006,111,3,"163,720",,,486,22,MarkedTrees,
+0707,Shawnee State Forest,8/30/2006,9/27/2006,74,3,"336,919",1300,,1663,18,Clearcut,
+0708,Tar Hollow State Forest,9/14/2006,10/11/2006,154,2,"348,044",,,1200,20,Thinning,
+0709,Brush Creek State Forest,9/22/2006,10/18/2006,218,3,"616,406",568,,2480,18,MarkedTrees,
+0710,Shawnee State Forest,10/16/2006,11/15/2006,41,2,"278,514",883,,1375,18,Clearcut,
+0721,Pike State Forest,11/2/2006,11/29/2006,146,2,"261,780",,,909,18,Thinning,
+0722,Zaleski State Forest,11/9/2006,12/13/2006,110,4,"438,210",265,,1985,18,Thinning,Sale type based on largest acreage in cutting section
+0724,Yellow Creek State Forest,12/13/2006,1/17/2006,134,3,"391,502",190,,2748,17,Thinning and Shelterwood,
+0725,Shade River State Forest,12/21/2006,1/24/2007,73,6,,3657,,16501,8,Thinning,Sale type based on largest acreage in cutting section
+0726,Tar Hollow State Forest,1/12/2007,2/7/2007,139,2,"261,489",,,870,20,Thinning,Sale type based on largest acreage in cutting section
+0727,Tar Hollow State Forest,2/5/2007,3/7/2007,13,1,,1977,,1020,20,Clearcut,
+0728,Zaleski State Forest,2/6/2007,3/14/2007,39,2,"321,082",357,,1672,18,Shelterwood,Sale type based on largest acreage in cutting section
+0729,Zaleski State Forest,2/7/2007,3/21/2007,42,2,"88,358",6,,321,20,White oak salvage,
+0730,Scioto Trail State Forest,3/1/2007,3/28/2007,86,1,"200,080",,,725,20,Thinning,
+0741,Shawnee State Forest,3/15/2007,4/11/2007,58,3,"341,849",1044,,1203,20,Clearcut,
+0742,Tar Hollow State Forest,3/22/2007,4/18/2007,134,4,"351,884",893,,1534,20,Shelterwood,Sale type based on largest acreage in cutting section
+0743,Zaleski State Forest,3/26/2007,4/25/2007,85,3,"251,393",47,,1010,20,Salvage and cull reduction,
+0744,Scioto Trail State Forest,4/5/2007,5/2/2007,25,2,"188,580",514,,759,18,Clearcut,
+0745,Dean State Forest,4/12/2007,5/9/2007,42,4,"189,174",505,,1537,14,Clearcut,Sale type based on largest acreage in cutting section
+0747,Tar Hollow State Forest,5/3/2007,5/30/2007,73,8,"372,724",896,,1761,18,Thinning,Sale type based on largest acreage in cutting section
+0748,Shade River State Forest,5/9/2007,6/6/2007,73,3,"391,826",1117,,2598,16,Shelterwood,Sale type based on largest acreage in cutting section
+0749,Tar Hollow State Forest,5/14/2007,6/13/2007,80,4,"413,578",916,,1557,20,Thinning,Sale type based on largest acreage in cutting section
+0750,Shawnee State Forest,5/21/2007,6/20/2007,45,2,"363,220",1034,,1352,18,Clearcut,
+0801,Shade River State Forest,6/14/2007,7/11/2007,73,3,"391,826",1094,,2598,16,Shelterwood,Sale type based on largest acreage in cutting section
+0802,Blue Rock State Forest,1/4/2008,1/30/2008,108,3,"659,686",1833,,4051,18,Shelterwood,
+0803,Tar Hollow State Forest,7/2/2007,8/1/2007,67,4,"349,751",767,,1174,20,Thinning,Sale type based on largest acreage in cutting section
+0804,Zaleski State Forest,7/12/2007,8/8/2007,46,2,"320,130",473,,1757,18,Clearcut,
+0805,Blue Rock State Forest,7/26/2007,8/22/2007,113,5,,8942,,19809,12,Thinning,Sale type based on largest acreage in cutting section
+0806,Zaleski State Forest,8/16/2007,9/12/2007,54,2,"248,322",353,,1291,18,Thinning,Sale type based on largest acreage in cutting section
+0807,Pike State Forest,8/22/2007,9/19/2007,121,4,"259,187",549,,1032,20,Thinning,Sale type based on largest acreage in cutting section
+0808,Brush Creek State Forest,8/30/2007,9/26/2007,79,2,"203,660",,,895,18,Thinning,
+0809,Tar Hollow State Forest,9/21/2007,10/17/2007,110,3,"324,140",598,,1123,20,Thinning,
+0810,Pike State Forest,10/9/2007,11/7/2007,29,3,"266,740",832,,1381,18,Clearcut,Sale type based on largest acreage in cutting section
+0821,Shawnee State Forest,10/26/2007,12/5/2007,210,6,"820,812",976,,3121,18,Thinning,Sale type based on largest acreage in cutting section
+0822,Zaleski State Forest,11/9/2007,12/12/2007,140,4,"482,282",335,,2561,18,Thinning,Sale type based on largest acreage in cutting section
+0823,Scioto Trail State Forest,12/4/2007,12/21/2007,94,2,"469,426",472,,2019,18,Thinning,Sale type based on largest acreage in cutting section
+0824,Zaleski State Forest,1/2/2008,1/23/2008,35,4,"36,976",1998,,4753,,Thinning,Sale type based on largest acreage in cutting section
+0825,Shawnee State Forest,2/8/2008,3/5/2007,101,5,"636,811",1995,,3052,18,Clearcut,
+0826,Zaleski State Forest,2/22/2008,3/19/2008,35,2,"132,244",6,,338,22,Thinning,
+0827,Shawnee State Forest,2/26/2008,3/26/2008,64,3,"247,755",620,,1173,18,Thinning,Sale type based on largest acreage in cutting section
+0828,Scioto Trail State Forest,3/3/2008,4/2/2008,32,1,"71,940",,,317,20,Thinning,
+0829,Tar Hollow State Forest,3/6/2008,4/9/2008,83,1,"165,895",299,,521,20,Thinning,
+0830,Hocking State Forest,3/18/2008,4/16/2008,28,3,,1482,,5538,10,Thinning,Sale type based on largest acreage in cutting section
+0831,Blue Rock State Forest,3/31/2008,4/30/2008,26,2,"213,566",520,,756,18,Shelterwood,
+0832,Shawnee State Forest,4/11/2008,5/7/2008,24,1,"188,232",523,,744,20,Clearcut,
+0833,Pike State Forest,4/15/2008,5/14/2008,96,2,"313,295",681,,1256,18,Thinning,Sale type based on largest acreage in cutting section
+0834,Tar Hollow State Forest,4/28/2008,5/28/2008,141,2,"337,780",,,985,22,Thinning,
+0835,Tar Hollow State Forest,5/9/2008,6/4/2008,109,2,"200,620",,,590,22,Thinning,
+0836,Fernwood State Forest,5/30/2008,6/25/2008,121,8,"725,861",873,,4062,17,Salvage and clearcut,Sale type based on largest acreage in cutting section
+0901,Zaleski State Forest,6/19/2008,7/16/2008,149,5,"780,350",1138,,4331,20,Thinning,Sale type based on largest acreage in cutting section
+0902,Brush Creek State Forest,7/7/2008,8/6/2008,68,2,"204,230",538,,717,20,Thinning,
+0903,Scioto Trail State Forest,7/14/2008,8/13/2008,89,5,"727,686",2008,,2765,18,Clearcut,
+0904,Richland Furnace State Forest,7/21/2008,8/20/2008,113,1,"151,360",,,737,18,Thinning,
+0905,Zaleski State Forest,7/28/2008,8/27/2008,103,3,"364,523",124,,1369,20,MarkedTrees,Sale type based on largest acreage in cutting section
+0906,Tar Hollow State Forest,8/21/2008,9/17/2008,61,4,"432,399",672,,1925,20,Shelterwood,Sale type based on largest acreage in cutting section
+0907,Pike State Forest,8/29/2008,9/24/2008,24,2,"283,162",977,,1248,18,MarkedTrees,
+0908,Brush Creek State Forest,9/19/2008,10/15/2008,216,3,"550,020",987,,1499,20,MarkedTrees,
+0909,Shawnee State Forest,9/26/2008,10/29/2008,166,5,"542,127",80,,1649,20,Thinning,
+0910,Hocking State Forest,10/15/2008,11/12/2008,69,9,"144,679",5930,,8709,,Thinning,Sale type based on largest acreage in cutting section
+0911,Zaleski State Forest,11/24/2008,12/17/2008,40,4,,4019,,9773,,Clearcut,Sale type based on largest acreage in cutting section
+0912,Hocking State Forest,12/17/2008,1/14/2009,38,3,"240,593",467,,1200,18,Thinning,Sale type based on largest acreage in cutting section
+0913,Maumee State Forest,12/29/2008,1/14/2009,50,3,,4708,,,,Thinning,No Counts by Species
+0914,Shawnee State Forest,12/30/2008,1/29/2009,23,2,"118,199",407,,574,16,Clearcut,
+0915,Blue Rock State Forest,1/9/2009,2/4/2009,26,4,,3137,,5762,,Thinnings,Sale type based on largest acreage in cutting section
+0916,Shawnee State Forest,1/27/2009,2/18/2009,15,1,"115,706",143,,539,18,Clearcut,
+0917,Scioto Trail State Forest,3/2/2009,3/25/2009,26,1,"209,942",819,,940,16,Clearcut,
+0918,Blue Rock State Forest,4/1/2009,4/22/2009,64,5,"42,278",4538,,6029,,Thinnings,Sale type based on largest acreage in cutting section
+0919,Zaleski State Forest,4/20/2009,5/13/2009,81,4,"399,037",318,,2017,18,Thinnings,Sale type based on largest acreage in cutting section
+0920,Shade River State Forest,4/24/2009,5/20/2009,73,5,"374,747",1102,,2261,18,Shelterwood,Sale type based on largest acreage in cutting section
+0921,Zaleski State Forest,5/27/2009,6/24/2009,91,4,"465,015",1252,,1883,18,"Marked,Shelterwood and Clearcut",Cutting sections acreage not specified
+1001,Tar Hollow State Forest,6/26/2009,7/22/2009,150,3,"444,499",,,1626,18,Thinning,
+1002,Shawnee State Forest,8/3/2009,8/26/2009,81,5,"456,921",1748,,2468,16,Clearcut,
+1003,Tar Hollow State Forest,8/17/2009,9/9/2009,127,3,"288,709",,,1320,18,Thinning,
+1004,Zaleski State Forest,8/25/2009,9/16/2009,93,4,"830,000",955,,3558,18,Shelterwood,Sale type based on largest acreage in cutting section
+1005,Hocking State Forest,9/24/2009,10/21/2009,141,4,"470,910",744,,2059,18,Thinning,Sale type based on largest acreage in cutting section
+1006,Zaleski State Forest,10/29/2009,11/25/2009,84,4,"367,296",570,,1324,20,Thinning,Sale type based on largest acreage in cutting section
+1007,Blue Rock State Forest,12/23/2009,1/20/2010,89,5,"423,773",1851,,2816,18,Shelterwood,Sale type based on largest acreage in cutting section
+1008,Shawnee State Forest,12/3/2009,12/16/2009,109,3,"499,267",1702,,3797,16,WildfireSalvage,
+1009,Shawnee State Forest,12/3/2009,12/16/2009,123,4,"723,518",2017,,5208,16,WildfireSalvage,
+1010,Shawnee State Forest,12/3/2009,12/16/2009,86,2,"396,673",1215,,2661,16,WildfireSalvage,
+1011,Shawnee State Forest,12/3/2009,12/16/2009,55,2,"230,884",711,,2111,16,WildfireSalvage,
+1012,Brush Creek State Forest,12/29/2009,1/27/2010,44,3,"260,707",1039,,1668,16,Clearcut,Sale type based on largest acreage in cutting section
+1013,Shawnee State Forest,1/27/2010,2/24/2010,205,5,"647,613",1531,,3048,20,Thinning,Sale type based on largest acreage in cutting section
+1014,Tar Hollow State Forest,2/3/2010,3/3/2010,71,2,"274,108",145,,967,18,Thinning,Sale type based on largest acreage in cutting section
+1015,Shawnee State Forest,2/10/2010,3/10/2010,96,1,"222,371",403,,816,20,Thinning,
+1016,Zaleski State Forest,2/11/2010,3/5/2010,56,2,,79,,2465,18,Thinning,Sale type based on largest acreage in cutting section
+1017,Shawnee State Forest,2/22/2010,3/24/2010,201,6,"717,258",1184,,3111,18,Thinning,
+1018,Pike State Forest,3/17/2010,4/7/2010,24,3,"235,243",745,,973,18,Clearcut,
+1019,Perry State Forest,3/23/2010,4/14/2010,59,3,"216,287",502,,990,18,Thinning,Sale type based on largest acreage in cutting section
+1020,Tar Hollow State Forest,4/22/2010,5/12/2010,47,3,"321,440",147,,1263,20,Clearcut,Sale type based on largest acreage in cutting section
+1021,Zaleski State Forest,5/26/2010,6/23/2010,82,2,"281,902",752,,1352,20,Thinning,Sale type based on largest acreage in cutting section
+1101,Maumee State Forest,6/25/2010,7/14/2010,144,4,,15000,,,16,PineSalvage,Some specifics unknown due to tornado
+1102,Maumee State Forest,7/14/2010,8/4/2010,57,1,"285,000",1500,,,,HardwoodSalvage,Some specifics unknown due to tornado
+1103,Shawnee State Forest,8/6/2010,9/1/2010,242,4,"1,037,883",2254,,3350,20,MarkedTrees,Sale type based on largest acreage in cutting section
+1104,Zaleski State Forest,9/15/2010,10/13/2010,100,3,"575,883",1357,,2215,18,Clearcut,
+1105,Brush Creek State Forest,10/8/2010,11/3/2010,94,3,"860,696",2579,,4144,18,Shelterwood,
+1106,Richland Furnace State Forest,10/12/2010,11/10/2010,19,1,"151,122",585,,608,18,Clearcut,
+1107,Zaleski State Forest,10/25/2010,11/17/2010,136,4,"362,692",812,,1732,18,Thinning,Sale type based on largest acreage in cutting section
+1108,Tar Hollow State Forest,11/2/2010,12/1/2010,108,2,"243,892",454,,820,20,MarkedTrees,
+1109,Zaleski State Forest,11/22/2010,12/15/2010,59,2,"156,631",304,,572,20,Thinning,
+1110,Blue Rock State Forest,12/13/2010,1/12/2011,62,4,"347,661",812,,1692,18,Clearcut,Sale type based on largest acreage in cutting section
+1111,Pike State Forest,12/17/2010,1/19/2011,20,1,"166,708",612,,864,18,Clearcut,
+1112,Brush Creek State Forest,1/28/2011,2/16/2011,64,3,"452,517",1377,,2628,18,Shelterwood,Sale type based on largest acreage in cutting section
+1113,Shawnee State Forest,1/31/2011,2/23/2011,107,4,"440,450",1065,,1702,20,Thinning,Sale type based on largest acreage in cutting section
+1114,Scioto Trail State Forest,2/7/2011,3/2/2011,28,2,"185,764",479,,669,18,Thinning and Clearcut,
+1115,Pike State Forest,2/11/2011,3/9/2011,24,1,"229,608",960,,1145,16,Clearcut,
+1116,Shawnee State Forest,2/17/2011,3/16/2011,35,1,"232,093",476,,726,24,MarkedTrees,
+1117,Shawnee State Forest,2/22/2011,3/23/2011,89,3,"265,214",1452,,1674,18,Deferment,Sale type based on largest acreage in cutting section
+1118,Blue Rock State Forest,3/2/2011,3/30/2011,66,4,"232,911",673,,1013,18,Thinning,Sale type based on largest acreage in cutting section
+1120,Shawnee State Forest,3/22/2011,4/20/2011,132,4,"448,236",1394,,2326,18,Deferment,Sale type based on largest acreage in cutting section
+1121,Shawnee State Forest,3/25/2011,4/27/2011,89,5,"433,004",1382,,2741,18,Deferment,Sale type based on largest acreage in cutting section
+1122,Shawnee State Forest,3/31/2011,5/4/2011,55,5,"409,629",1742,,1385,20,Clearcut,
+1123,Gifford State Forest,4/6/2011,5/11/2011,47,2,"73,227",298,,314,18,Thinning,Sale type based on largest acreage in cutting section
+1124,Brush Creek State Forest,4/12/2011,5/18/2011,58,2,"306,871",1104,,1596,18,Shelterwood,
+1125,Zaleski State Forest,5/15/2011,5/25/2011,87,3,"178,600",349,,661,20,Thinning,
+1126,Tar Hollow State Forest,4/22/2011,6/1/2011,51,2,"218,918",443,,705,22,Thinning,Sale type based on largest acreage in cutting section
+1127,Pike State Forest,4/29/2011,6/8/2011,97,1,"185,987",335,,887,20,Thinning,
+1128,Shawnee State Forest,5/6/2011,6/15/2011,47,2,"399,009",1557,,969,22,Deferment,
+1129,Shawnee State Forest,5/23/2011,6/22/2011,34,1,"279,140",1466,,974,20,Deferment,
+1130,Brush Creek State Forest,6/2/2011,6/29/2011,37,3,"200,050",538,,1173,18,Clearcut,
+1119,Yellow Creek State Forest,3/9/2011,4/6/2011,64,3,"157,769",6046,,12216,,Clearcut,Sale type based on largest acreage in cutting section
+1205,Harrison State Forest,10/5/2011,11/2/2011,104,4,"494,621",2731,,2426,18,Thinning,Sale type based on largest acreage in cutting section
+1212,Blue Rock State Forest,12/6/2011,1/3/2012,58,3,,4950,,14737,,Thinning and Clearcut,
+1213,Pike State Forest,12/14/2011,1/11/2012,86,3,"485,771",1040,,2044,20,Thinning,Sale type based on largest acreage in cutting section
+1214,Hocking State Forest,1/4/2012,2/1/2012,18,2,"157,100",42,,816,20,Clearcut,
+1215,Shawnee State Forest,1/10/2012,2/7/2012,26,3,"177,596",1017,,493,22,Clearcut,
+1217,Tar Hollow State Forest,2/14/2012,3/6/2012,45,5,"330,961",1066,,1201,18,Clearcut,
+1221,Scioto Trail State Forest,3/21/2012,4/17/2012,94,2,"301,646",1215,,1718,18,Shelterwood,Sale type based on largest acreage in cutting section
+1222,Tar Hollow State Forest,3/27/2012,4/24/2012,49,1,"168,609",422,,528,20,Thinning,
+1223,Zaleski State Forest,3/29/2012,4/26/2012,96,4,"399,728",1235,,1284,20,Thinning,Sale type based on largest acreage in cutting section
+1224,Shawnee State Forest,4/3/2012,5/1/2012,40,3,"202,757",634,,998,,Clearcut,
+1225,Brush Creek State Forest,5/5/2012,5/25/2012,15,1,"34,597",694,,623,,Clearcut,
+1226,Hocking State Forest,4/18/2012,5/15/2012,26,1,"68,400",130,,167,22,Thinning,
+1227,Pike State Forest,4/25/2012,5/23/2012,91,3,"506,740",1133,,1787,20,Thinning,Sale type based on largest acreage in cutting section
+1228,Hocking State Forest,5/9/2012,6/13/2012,42,4,"165,000",447,,595,20,Thinning,
+1229,Tar Hollow State Forest,5/15/2012,6/19/2012,59,2,"387,239",2030,,1800,20,Shelterwood,
+1230,Maumee State Forest,5/22/2012,6/27/2012,19,1,"165,606",784,,395,20,Deferment,
+1231,Brush Creek State Forest,5/24/2012,6/21/2012,117,2,"679,373",2466,,2501,20,Shelterwood,
+1232,Shawnee State Forest,5/29/2012,6/26/2012,29,3,"228,170",1047,,1006,18,MarkedTrees,
+1233,Zaleski State Forest,6/4/2012,6/29/2012,93,3,"217,148",421,,684,18,Thinning,
+1301,Pike State Forest,8/2/2012,8/30/2012,154,3,"784,279",2619,,3482,18,Shelterwood,Sale type based on largest acreage in cutting section
+1303,Zaleski State Forest,9/19/2012,10/17/2012,59,2,"561,349",2290,,1893,20,Deferment,
+1304,Perry State Forest,9/27/2012,10/25/2012,10,1,"71,730",276,,365,20,Clearcut,
+1305,Zaleski State Forest,10/17/2012,11/14/2012,21,1,"174,979",315,,603,20,Deferment,
+1306,Shawnee State Forest,10/24/2012,11/20/2012,39,2,"318,430",1453,,1184,20,Clearcut,Sale type based on largest acreage in cutting section
+1307,Zaleski State Forest,10/25/2012,11/20/2012,121,4,"1,017,773",2612,,4236,20,Shelterwood,Sale type based on largest acreage in cutting section
+1308,Tar Hollow State Forest,10/31/2012,11/28/2012,108,2,"390,000",1704,,1681,20,Thinning,Sale type based on largest acreage in cutting section
+1309,Pike State Forest,11/7/2012,12/5/2012,94,1,"310,273",653,,1025,20,Thinning,
+1310,Shawnee State Forest,11/14/2012,12/12/2012,37,1,"191,757",744,,738,20,Shelterwood,
+1312,Scioto Trail State Forest,11/29/2012,1/3/2013,172,3,"1,027,791",4051,,5132,18,Deferment,
+1313,Hocking State Forest,12/5/2012,1/9/2013,15,1,"184,170",688,,689,18,Deferment,
+1314,Brush Creek State Forest,12/12/2012,1/10/2013,37,1,"108,822",235,,395,20,Thinning,
+1315,Shawnee State Forest,1/9/2013,2/6/2013,25,1,"174,868",451,,674,18,Deferment,
+1316,Brush Creek State Forest,1/16/2013,2/13/2013,47,2,"430,706",1344,,1474,18,Deferment,
+1317,Zaleski State Forest,1/23/2013,2/20/2013,29,1,"272,695",675,,1014,20,Deferment,
+1318,Shawnee State Forest,1/23/2013,2/20/2013,49,5,"301,888",1739,,1403,18,Clearcut,
+1320,Shawnee State Forest,1/30/2013,2/27/2013,118,4,"583,428",2072,,1715,20,Thinning,Sale type based on largest acreage in cutting section
+1321,Shawnee State Forest,2/6/2013,3/6/2013,37,3,"258,743",819,,1369,18,Deferment,Sale type based on largest acreage in cutting section
+1322,Tar Hollow State Forest,2/13/2013,3/13/2013,91,4,"891,659",2859,,3298,20,Shelterwood,Sale type based on largest acreage in cutting section
+1323,Hocking State Forest,2/20/2013,3/20/2013,29,2,"100,180",219,,359,20,Thinning,
+1324,Shade River State Forest,3/13/2013,4/10/2013,109,5,"407,186",947,,1983,18,Thinning,Sale type based on largest acreage in cutting section
+1325,Shawnee State Forest,5/15/2013,6/12/2013,146,3,"1,112,384",4479,,3850,20,Deferment,
+1326,Tar Hollow State Forest,5/29/2013,6/26/2013,20,2,"258,883",906,,929,20,Clearcut,
+1401,Zaleski State Forest,6/5/2013,7/3/2013,74,5,"342,568",985,,1408,18,Thinning,Sale type based on largest acreage in cutting section

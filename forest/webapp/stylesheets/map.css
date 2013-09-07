@@ -1,0 +1,39 @@
+
+#map svg path.cutting_sections{
+	stroke: #49281F;
+	stroke-width:0.2px;
+	fill: #49281F;
+	fill-opacity: 0.6;
+}
+
+#map svg path.cutting_sections:hover{
+	fill: red;
+	-webkit-svg-shadow: 0 0 5px red;
+	
+}
+
+#map svg path.public_lands{
+	stroke-width:0.5px;
+	stroke:#042608;
+	fill: #758918;	
+	-webkit-svg-shadow: 2px 2px 2px #555;
+	
+}
+
+#map svg path.public_lands:hover{
+	stroke: #555;
+	
+}
+
+#map svg path.places{
+	fill: #564334;
+	stroke-width:0px;
+}
+
+#map svg path.rivers{
+	stroke-width:0;
+	fill: #C2D2CF;
+	fill-opacity:0.4;
+	-webkit-svg-shadow: -1px -1px -2px #000;
+	
+}
