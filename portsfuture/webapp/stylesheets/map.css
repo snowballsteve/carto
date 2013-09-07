@@ -77,7 +77,7 @@
 
 #map svg path.ports{
     stroke-width: 1px;
-    stroke: #000FFF;
+    stroke: #00FFFF;
 	fill:#000FFF;
-	-webkit-svg-shadow: 0 0 1px #000FFF;
+	-webkit-svg-shadow: 0 0 1px #00FFFF;
 }

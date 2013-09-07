@@ -1,0 +1,59 @@
+#map svg path.counties {
+    fill: #0D192B;
+    stroke: #0C5149;
+    stroke-opacity:0.5;
+	stroke-width: 1.5;	
+}
+
+#map svg path.states{
+    stroke: #0C5149;
+    stroke-width: 6;
+    stroke-opacity: 0.2;
+    stroke-linejoin: round;
+
+}
+
+#map svg path.roads, #map svg path.rail, #map svg path.hazmat{
+    stroke-width: 1.5px;
+    stroke: #07F9A2;
+	-webkit-svg-shadow: 0 0 10px #07F9A2;
+	
+}
+
+#map svg path.urban_area {
+	fill: #0A8967;
+	fill-opacity: 0.6;
+	stroke-width:0.5px;
+	stroke: #0A8967;
+	-webkit-svg-shadow: 0 0 1px #fff;
+	
+}
+
+#map svg path.t2,#map svg path.t4,#map svg path.t6,#map svg path.t8,#map svg path.t10 {
+	stroke: #FFFEDF;
+	stroke-width:2;
+	fill: #FFFEDF;
+	fill-opacity: 0.1;
+	-webkit-svg-shadow: 0 0 10px #FFFEDF;
+	
+}
+
+#map svg path.waterways{
+	stroke: #07F9A2;
+	stroke-width:1.5px;
+	-webkit-svg-shadow: 0 0 5px #07F9A2;
+}
+
+#map svg path.airports{
+    stroke-width: 1.5px;
+    stroke: #07F9A2;
+	fill:#112;
+	-webkit-svg-shadow: 0 0 10px #07F9A2;
+}
+
+#map svg path.ports{
+    stroke-width: 1px;
+    stroke: #07F9A2;
+	fill:#112;
+	-webkit-svg-shadow: 0 0 1px #07F9A2;
+}

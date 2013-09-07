@@ -44,7 +44,9 @@ aside {
 	opacity: 0.9;
 }
                 
-
+.drivebutton, .layerbutton{
+	margin-bottom:16px;
+}
 
 .drivebutton {
 

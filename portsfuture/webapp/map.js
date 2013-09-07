@@ -64,6 +64,13 @@ var optional_layers = {
 		"source_text":"The National Transportation Atlas Database",
 		"tooltips":true
 	},
+	"ports":{
+		"layertext":"Wharfs",
+		"description":"U.S. Army Corps of Engineers recorded docks and wharfs used for water navigation activities.",
+		"source_url":"http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_atlas_database/index.html",
+		"source_text":"The National Transportation Atlas Database",
+		"tooltips":true
+	},
 	"airports_major":{
 		"layertext":"Major Airports",
 		"description":"Public-use airports with an operating control tower and U.S. Customs agent.",
@@ -74,13 +81,6 @@ var optional_layers = {
 	"airports_all":{
 		"layertext":"All Airports",
 		"description":"Public-use airports of any size.",
-		"source_url":"http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_atlas_database/index.html",
-		"source_text":"The National Transportation Atlas Database",
-		"tooltips":true
-	},
-	"ports":{
-		"layertext":"Wharfs",
-		"description":"U.S. Army Corps of Engineers recorded docks and wharfs used for water navigation activities.",
 		"source_url":"http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_atlas_database/index.html",
 		"source_text":"The National Transportation Atlas Database",
 		"tooltips":true
@@ -130,6 +130,7 @@ if (!Array.prototype.indexOf) {
 Array.prototype.remove = function() {
     var what, a = arguments, L = a.length, ax;
     while (L && this.length) {
+		
         what = a[--L];
         while ((ax = this.indexOf(what)) !== -1) {
             this.splice(ax, 1);

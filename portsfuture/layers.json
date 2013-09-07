@@ -101,7 +101,7 @@
 		"education":{
 			"src":"data/education.shp",
 			"attributes":{
-				"id":"id",
+				"id":"ID",
 				"name":"Name"
 			}
 		},
